@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+class HitWicket{
+  public static void main(String[] args){
+    Scanner sc=new Scanner(System.in);
+    int run=sc.nextInt();
+    int Probability_of_shot=sc.nextInt();
+    int shot_modifier=sc.nextInt();
+    int ball_modifier=sc.nextInt();
+    
+    Probability_of_shot = (((shot_modifier - ball_modifier) * 100) / shot_modifier);
+    System.out.println(Probability_of_shot);
+ }
+ }
+  
+    
